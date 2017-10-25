@@ -41,6 +41,7 @@ $ yum install autoconf automake libtool unzip gcc-c++ git wget make -y
 $ wget https://github.com/google/protobuf/archive/v3.4.1.zip
 $ unzip v3.4.1.zip
 $ cd protobuf-3.4.1
+$ ./autogen.sh
 $ ./configure
 $ make
 $ mv src/protoc /bin/protoc
